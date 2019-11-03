@@ -1,0 +1,145 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.mondsClass {
+  background-color:#cde7f1 ;
+  display: grid;
+  grid-template-columns: 3px 1fr   3px;
+  grid-template-rows: 70px  50px 1fr 1fr 1fr 1fr 20px 1fr 1fr  50px ;
+  grid-gap: 0;
+
+  grid-template-areas:
+
+           ". developer . "
+           ". menuClass ."
+           ". mainClass ."
+           ". tbox1 ."
+           ". tbox2  ."
+           ". tbox3 ."
+           ". telephone ."
+           ". sidebarClass ."
+           ". fbox1 ."
+           ". copyrightClass ." ;
+
+
+}
+
+
+.mondsClass > div {
+  padding: 5px;
+
+
+}
+
+.developer{
+
+  grid-area: developer;
+
+  align: left;
+
+padding: 5px;
+  color: #aaa;
+  background-color: #333323;
+
+}
+
+
+
+.telephone{
+
+  background-color: #333323;
+padding: 5px;
+  grid-area: telephone;
+
+
+}
+
+
+
+.navClass{
+
+  grid-area: menuClass;
+  color: #FFF;
+
+
+
+}
+.card{
+  padding: 5px;
+  margin-top: 5px;
+}
+.tbox1{
+padding: 5px;
+  grid-area: tbox1;
+  justify-self:   center;
+  width: 350px;
+
+}
+.tbox2{
+  padding: 5px;
+  justify-self:   center  ;
+  grid-area: tbox2;
+  width: 350px;
+}
+.tbox3{
+  padding: 5px;
+  justify-self:   center  ;
+  grid-area: tbox3;
+  width: 350px;
+}
+.mainClass{
+  padding: 5px;
+  grid-area: mainClass;
+
+}
+
+.form1{
+  grid-area: form1;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+
+}
+.sidebarClass{
+  grid-area: sidebarClass;
+padding: 5px;
+}
+
+.fbox1{
+  grid-area: fbox1;
+padding: 5px;
+}
+.fbox2{
+  grid-area: fbox2;
+padding: 5px;
+}
+.fbox3{
+  grid-area: fbox3;
+padding: 5px;
+}
+
+.copyrightClass{
+  grid-area: copyrightClass;
+padding: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mainClass h1{
+  background-color: #333;
+}
